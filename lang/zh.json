@@ -145,7 +145,7 @@
 	"format.java_block.info.rotation": "每个元素只能绕一个轴旋转",
 	"format.java_block.info.size": "该模型的大小限制为 3×3×3 个方块，但显示设置可以让物品模型更大",
 	"format.java_block.info.animation": "原版 Minecraft 不支持此格式动画。如果你正在创建一个模组，则可使用 GeckoLib 制作模型动画。如果没有，制作动画的唯一方法是使用命令或动画纹理切换模型。",
-	
+
 	"format.bedrock": "Bedrock 版实体",
 	"format.bedrock.desc": "Bedrock 版实体和物品附件模型",
 	"format.bedrock.info.textures": "每个模型只能有一个纹理",
@@ -361,10 +361,10 @@
 	"message.image_editor_missing.title": "默认图像编辑器",
 	"message.image_editor_missing.message": "选择图像编辑器的可执行文件。",
 	"message.image_editor_missing.detail": "Blockbench 未在计算机上找到图像编辑器。请选择首选图像编辑器的可执行文件。",
-	
+
 	"message.delete_animation.title": "删除动画",
 	"message.delete_animation.message": "该动画已从 Blockbench 中移除。是否同时在已保存的文件中删除该动画？",
-	
+
 	"message.save_codec_selector.title": "保存模型格式",
 	"message.save_codec_selector.message": "选择保存模型的格式。",
 	"message.save_codec_selector.project_file": "Blockbench 项目（.bbmodel）",
@@ -454,7 +454,7 @@
 
 	"message.load_palette.title": "加载调色板",
 	"message.load_palette.message": "您确定要加载此调色板吗？这将替换当前的调色板。",
-	
+
 	"message.load_plugin_failed.title": "插件加载失败",
 	"message.load_plugin_failed.message": "确保插件的基本文件名与 Plugin.register() 中指定的插件 ID `%0` 一致。",
 
@@ -722,7 +722,7 @@
 	"dialog.select_model.title": "选择模型",
 	"dialog.select_model.bones": "骨骼",
 	"dialog.select_model.cubes": "方块",
-	
+
 	"dialog.animation_import.title": "选择需要导入的动画",
 	"dialog.animation_export.title": "选择要导出的动画",
 
@@ -919,7 +919,7 @@
 	"dialog.export_private_settings.message": "您的文件包含下列隐私信息：**%0**。如果您计划与其他人共享文件，请忽略这些值。",
 	"dialog.export_private_settings.keep": "保持",
 	"dialog.export_private_settings.omit": "忽略",
-	
+
 	"dialog.settings.settings": "设置",
 	"dialog.settings.keybinds": "快捷键",
 	"dialog.settings.theme": "主题",
@@ -1609,7 +1609,7 @@
 	"action.import_settings.desc": "导入 .bbsettings 文件",
 	"action.export_settings": "导出设置",
 	"action.export_settings.desc": "导出 Blockbench 设置文件 .bbsettings",
-	
+
 	"action.load_keymap": "加载键盘映射",
 	"action.load_keymap.default": "默认（触控板/鼠标）",
 	"action.load_keymap.mouse": "默认（鼠标）",
@@ -2490,7 +2490,7 @@
 	"menu.mirror_painting.texture_center": "原点",
 	"menu.mirror_painting.texture_frames": "在翻页动画帧上重复",
 	"menu.mirror_painting.texture_frames.desc": "将笔画镜像到动画纹理的每一帧",
-	
+
 	"menu.mirror_modeling.mirror_uv": "镜像 UV",
 
 	"menu.image_tiled_view.mirrored": "镜像边缘",
