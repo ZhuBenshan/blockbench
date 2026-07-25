@@ -129,7 +129,7 @@
 	"projects.start_screen": "启动画面",
 	"projects.close_tab": "关闭标签页",
 
-	"format.free": "通用模型",
+	"format.free": "自由模型",
 	"format.free.desc": "无模型限制。用于游戏引擎、渲染等。",
 	"format.free.info.3d_printing": "3D 打印",
 	"format.free.info.meshes": "在此格式中，您可以使用立方体和自定义形状的网格创建 low poly 模型。",
@@ -258,7 +258,7 @@
 	"message.canvas_limit_error.title": "工作区限制错误",
 	"message.canvas_limit_error.message": "无法正确执行此操作，因为此格式将工作区限制为 48 个单位。移动枢轴点以避免此情况。",
 	"message.rotation_limit.title": "旋转限制",
-	"message.rotation_limit.message": "Minecraft 仅允许绕一个轴旋转。在另一轴上旋转会清除其他轴上的所有旋转。如果模型用于其他用途且需要自由旋转，请将其转换为“通用模型”。",
+	"message.rotation_limit.message": "Minecraft 仅允许绕一个轴旋转。在另一轴上旋转会清除其他轴上的所有旋转。如果模型用于其他用途且需要自由旋转，请将其转换为“自由模型”。",
 	"message.file_not_found.title": "未找到文件",
 	"message.file_not_found.message": "Blockbench 找不到请求的文件。请确保它保存在本地而不是云中。",
 	"message.recover_backup.title": "恢复模型",
