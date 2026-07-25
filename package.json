@@ -87,8 +87,9 @@
 			]
 		},
 		"win": {
+            "signAndEditExecutable": false,
 			"signtoolOptions": {
-				"certificateSubjectName": "Jannis Tobias Petersen"
+				"certificateSubjectName": null
 			},
 			"artifactName": "${productName}_${arch}_${version}.${ext}",
 			"target": {
@@ -146,7 +147,8 @@
 		"webapp": "git checkout gh-pages && git pull && git merge master --no-edit && git push && git checkout master",
 		"generate-types": "tsc --project tsconfig.json && node ./scripts/convert_types.js",
 		"publish-types": "npm publish ./types",
-		"generate-docs": "npm run generate-types && npx typedoc --options typedoc.json"
+		"generate-docs": "npm run generate-types && npx typedoc --options typedoc.json",
+        "build-portable": "npm run build-electron && electron-builder --win portable --x64 --publish=never"
 	},
 	"overrides": {
 		"three": "$three"

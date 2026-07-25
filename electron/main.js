@@ -327,7 +327,7 @@ app.on('ready', () => {
 				console.log('update-progress', a)
 				if (!orig_win.isDestroyed()) orig_win.webContents.send('update-progress', a)
 			})
-			autoUpdater.checkForUpdates().catch(err => {})
+			// autoUpdater.checkForUpdates().catch(err => {})
 		}
 	})
 })
