@@ -391,7 +391,7 @@
 	"message.classroom_mode.install_plugin": "教室模式下无法安装插件",
 	"message.preset_no_info": "预设信息不包含此槽",
 	"message.restart_to_update": "重启 Blockbench 应用更改",
-	"message.save_file": "另存为 %0",
+	"message.save_file": "已保存为 %0",
 	"message.untextured": "该面没有纹理",
 	"message.sketchfab.name_or_token": "请输入 Sketchfab 令牌和名称",
 	"message.sketchfab.success": "成功上传模型",
