@@ -87,10 +87,7 @@
 			]
 		},
 		"win": {
-            "signAndEditExecutable": false,
-			"signtoolOptions": {
-				"certificateSubjectName": null
-			},
+			"icon": "build/icon.ico",
 			"artifactName": "${productName}_${arch}_${version}.${ext}",
 			"target": {
 				"target": "nsis",
