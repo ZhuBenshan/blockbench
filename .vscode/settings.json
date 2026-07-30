@@ -2,5 +2,6 @@
   "editor.indentSize": "tabSize",
   "editor.tabSize": 4,
   "editor.insertSpaces": false,
-  "prettier.enable": false
+  "prettier.enable": false,
+  "js/ts.tsdk.path": "node_modules\\typescript\\lib"
 }
