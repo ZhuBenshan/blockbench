@@ -269,7 +269,6 @@ BARS.defineActions(function() {
 	})
 
 	new Action('load_on_bedrock_player', {
-		name: 'Load with Bedrock Player',
 		condition: () => Format.id == 'bedrock' && !Project.multi_file_ruleset,
 		icon: 'icon-player',
 		click() {
@@ -278,7 +277,6 @@ BARS.defineActions(function() {
 		}
 	})
 	new Action('import_bedrock_attachable', {
-		name: 'Import Bedrock Attachable',
 		condition: () => Format.id == 'bedrock',
 		icon: 'swords',
 		click() {
@@ -313,7 +311,6 @@ BARS.defineActions(function() {
 		}
 	})
 	new Action('slice_bedrock_multiblock', {
-		name: 'Slice Bedrock Multiblock',
 		condition: () => Format.id == 'bedrock_block',
 		icon: 'dashboard_customize',
 		click() {
