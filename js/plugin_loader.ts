@@ -553,6 +553,7 @@ export class Plugin {
 		this.tags.safePush('Remote');
 
 		this.source = 'url';
+		this.path = url
 		let content = await this.#runPluginFile(url).catch(async (error) => {
 			if (isApp) {
 				await this.load();
@@ -564,7 +565,6 @@ export class Plugin {
 				this.oninstall()
 			}
 			this.installed = true
-			this.path = url
 			this.#remember()
 			Plugins.sort()
 			// Save
