@@ -554,8 +554,12 @@ export class Plugin {
 
 		this.source = 'url';
 		this.path = url
+		// 预先标记为已安装，并在首次添加时保存记录，以便加载失败后下次启动重试
+		this.installed = true;
+		if (first) this.#remember();
 		let content = await this.#runPluginFile(url).catch(async (error) => {
-			if (isApp) {
+			// 仅在缓存存在时回退加载，避免清除远程插件记录
+			if (isApp && fs.existsSync(Plugins.path + this.id + '.js')) {
 				await this.load();
 			}
 			console.error(error);
