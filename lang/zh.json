@@ -416,6 +416,7 @@
 	"message.timelapse_stop": "延时摄影已关闭",
 
 	"message.no_animation_selected": "你必须选中一个动画才能执行此操作",
+	"message.animation_does_not_target_node": "当前动画未以此节点为目标",
 	"message.group_required_to_animate": "无法为此类元素制作动画。请创建一个组或骨架来制作动画。",
 	"message.bone_material": "改变骨骼材质",
 	"message.no_bone_selected": "你必须选中一个骨骼才能执行此操作",

@@ -125,7 +125,7 @@ export class Group extends OutlinerNode {
 			if (ba) {
 				ba.select(true);
 			} else {
-				Blockbench.showQuickMessage('The current animation does not target this node');
+				Blockbench.showQuickMessage('message.animation_does_not_target_node');
 			}
 		}
 		updateSelection()
