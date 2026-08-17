@@ -2763,6 +2763,7 @@
 	"camera_angle.common_isometric_left": "Isometric Left (2:1)",
 	"camera_angle.true_isometric_right": "True Isometric Right (30°)",
 	"camera_angle.true_isometric_left": "True Isometric Left (30°)",
+	"camera_angle.simulated_first_person": "Simulated First-Person View",
 
 	"dialog.edit_session.title": "Edit Session",
 	"edit_session.username": "Username",

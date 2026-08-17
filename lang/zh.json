@@ -2763,6 +2763,7 @@
 	"camera_angle.common_isometric_left": "等距左（2:1）",
 	"camera_angle.true_isometric_right": "真等距右（30°）",
 	"camera_angle.true_isometric_left": "真等距左（30°）",
+	"camera_angle.simulated_first_person": "模拟第一人称视角",
 
 	"dialog.edit_session.title": "编辑会话",
 	"edit_session.username": "用户名",

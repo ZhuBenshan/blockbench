@@ -156,6 +156,14 @@ export const DefaultCameraPresets = [
 		target: [0, 8, 0],
 		zoom: 0.5,
 		default: true
+	},
+	{
+		name: 'camera_angle.simulated_first_person',
+		id: 'simulated_first_person',
+		projection: 'unset',
+		position: [13, 30.83, -12.57],
+		target: [2.14, 28.26, 47.85],
+		default: true
 	}
 ]
 
