@@ -560,7 +560,7 @@ export class Plugin {
 		let content = await this.#runPluginFile(url).catch(async (error) => {
 			// 仅在缓存存在时回退加载，避免清除远程插件记录
 			if (isApp && fs.existsSync(Plugins.path + this.id + '.js')) {
-				await this.load();
+				await this.#runPluginFile(Plugins.path + this.id + '.js');
 			}
 			console.error(error);
 		})
