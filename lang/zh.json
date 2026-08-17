@@ -877,6 +877,7 @@
 	"dialog.skin.texture_file": "纹理文件",
 	"dialog.skin.pose": "动作",
 	"dialog.skin.layer_template": "纹理图层",
+	"dialog.bedrock_player_model.import_as_attachable": "将当前模型导入为可附着物",
 
 	"dialog.convert_skin.adjust_texture": "调整纹理",
 

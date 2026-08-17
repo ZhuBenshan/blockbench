@@ -184,7 +184,7 @@ BARS.defineActions(function() {
 				},
 			};
 			if (can_import) {
-				form.import_as_attachable = {label: 'Import current model as attachable', value: true, type: 'checkbox'};
+				form.import_as_attachable = {label: 'dialog.bedrock_player_model.import_as_attachable', value: true, type: 'checkbox'};
 			}
 			interface Result {
 				import_as_attachable?: boolean

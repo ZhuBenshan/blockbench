@@ -877,6 +877,7 @@
 	"dialog.skin.texture_file": "Texture File",
 	"dialog.skin.pose": "Pose",
 	"dialog.skin.layer_template": "Layer Texture",
+	"dialog.bedrock_player_model.import_as_attachable": "Import current model as attachable",
 
 	"dialog.convert_skin.adjust_texture": "Adjust Texture",
 
