@@ -158,8 +158,8 @@ export const DefaultCameraPresets = [
 		default: true
 	},
 	{
-		name: 'camera_angle.simulated_first_person',
-		id: 'simulated_first_person',
+		name: 'camera_angle.mc_1pov',
+		id: 'mc_1pov',
 		projection: 'unset',
 		position: [13, 30.83, -12.57],
 		target: [2.14, 28.26, 47.85],
