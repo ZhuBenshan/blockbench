@@ -563,6 +563,7 @@ export class Plugin {
 				await this.#runPluginFile(Plugins.path + this.id + '.js');
 			}
 			console.error(error);
+			Blockbench.showQuickMessage('message.invalid_plugin', 3000);
 		})
 		if (content) {
 			if (first && this.oninstall) {
