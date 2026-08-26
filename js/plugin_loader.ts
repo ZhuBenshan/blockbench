@@ -708,6 +708,7 @@ export class Plugin {
 			func(scoped_require, scoped_require);
 		} catch (err) {
 			console.error(err);
+			Blockbench.showQuickMessage('message.invalid_plugin', 3000);
 		}
 	}
 	toggleDisabled() {
