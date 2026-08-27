@@ -176,7 +176,7 @@ BARS.defineActions(function() {
 				model: {
 					label: 'dialog.skin.model',
 					type: 'select',
-					value: 'steve',
+					value: 'alex',
 					options: {
 						steve: skin_presets.steve.display_name,
 						alex: skin_presets.alex.display_name,
